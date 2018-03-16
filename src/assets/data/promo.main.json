@@ -1,0 +1,78 @@
+{
+  "title":"ПРОМО",
+  "yagaUrl":"../images/baba-promo.png",
+  "apps":{
+    "title":"Приложения",
+    "links":[
+      {
+        "href":"#",
+        "img":"../images/appstore.png"
+      },
+      {
+        "href":"#",
+        "img":"../images/googleapp.png"
+      }
+    ]
+  },
+  "rows":[
+    [
+      {
+        "title":"Куклы",
+        "listText":"28 кукол",
+        "listHref":"#",
+        "itemText":"Кукла веселая «Бабка Ежка»",
+        "itemHref":"#",
+        "img":"../images/by-little.png",
+        "role":""
+      },
+      {
+        "title":"Футболки",
+        "listText":"23 модели",
+        "listHref":"#",
+        "itemText":"Футболка белая с изображением",
+        "itemHref":"#",
+        "img":"../images/t-shirt.png",
+        "role":"big"
+      }
+    ],
+    [
+      {
+        "role":"false"
+      },
+      {
+        "title":"Канцелярия",
+        "listText":"134 предмета",
+        "listHref":"#",
+        "itemText":"Записная книжка «Баба-Яга»",
+        "itemHref":"#",
+        "img":"../images/wallet.png",
+        "role":""
+      },
+      {
+        "title":"Солнцезащитные очки",
+        "listText":"24 модели",
+        "listHref":"#",
+        "itemText":"Обольстительница",
+        "itemHref":"#",
+        "img":"../images/glases.png",
+        "role":""
+      }
+
+    ],
+    [
+      {
+        "title":"Значки",
+        "listText":"13 видов",
+        "listHref":"#",
+        "itemText":"Значок «ВДПО»",
+        "itemHref":"#",
+        "img":"../images/zn.png",
+        "role":""
+      }
+    ]
+  ],
+  "listHref":{
+    "text":"Все товары",
+    "href":"#"
+  }
+}

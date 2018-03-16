@@ -1,0 +1,28 @@
+<div class="footer">
+  <div class="mbox">
+    <div class="footer__menu">
+      <div class="footer__logo">
+        <button
+          routerLink="/"
+          class="footer__logo-box">
+          <img src="{{navData?.logo}}" alt="logo">
+        </button>
+      </div>
+      <div class="footer__list">
+        <ul>
+          <li
+            *ngFor="let item of navData?.pages"
+            routerLinkActive="active"><button type="button" [routerLink]="item.href">{{ item.name }}</button></li>
+        </ul>
+      </div>
+      <div class="footer__soclang">
+        <div class="footer__socials">
+          <a  *ngFor="let item of navData?.socials" [href]="item.href" target="_blank"><img [src]="item.imgUrl" alt="{{item.name}}"></a>
+        </div>
+        <div class="footer__lang">
+          <a [href]="navData?.langhref">{{navData?.lang}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

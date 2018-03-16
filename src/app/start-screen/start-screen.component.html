@@ -1,0 +1,40 @@
+<div class="screen-first" @startScreenAnimation>
+    <div class="mbox">
+      <div class="screen__baba anim-startbaba">
+        <img src="{{ pageData?.yagaUrl}}" alt="">
+      </div>
+      <div class="screen anim-startbody">
+        <div class="screen__all-top">
+          <div class="screen__right">
+            <h1>{{ pageData?.title}} <br> {{ pageData?.title2}}</h1>
+            <p>{{ pageData?.slider.title}}</p>
+          </div>
+        </div>
+        <div class="screen__slider-place">
+          <div class="mbox">
+            <ngx-slick class="screen__slider js-screen-slider" #slickModal="slick-modal" [config]="slideConfig">
+              <div  *ngFor="let slide of pageData?.slider.slides" ngxSlickItem>
+                <div class="screen__slide">
+                  <div class="screen__slide--top">
+                    <a href="{{ slide.href }}">{{ slide.text }}</a>
+                    <p>{{ slide.date }}</p>
+                  </div>
+                  <div class="screen__slide--bot">
+                    <a href="{{ slide.listHref }}">{{ slide.listText }}</a>
+                  </div>
+                </div>
+              </div>
+            </ngx-slick>
+          </div>
+        </div>
+        <button type="button" class="screen__down" (click)="onScrollButton($event)">
+          <div class="screen__wheel">
+            <img src="{{ pageData?.listHref.img}}" alt="">
+          </div>
+          <p class="screen__go-text">{{ pageData?.listHref.text}}</p>
+        </button>
+      </div>
+    </div>
+</div>
+<app-start-logo [@logoAnimation]="stateLogo" ></app-start-logo>
+

@@ -1,0 +1,49 @@
+{
+  "logo":"../images/logo.png",
+  "lang":"In english",
+  "langhref":"In english",
+  "socials":[
+    {
+      "imgUrl":"../images/vk.png",
+      "name":"vkontakte",
+      "href":"#"
+    },
+    {
+      "imgUrl":"../images/you.png",
+      "name":"youtube",
+      "href":"#"
+    },
+    {
+      "imgUrl":"../images/face.png",
+      "name":"facebook",
+      "href":"#"
+    },
+    {
+      "imgUrl":"../images/insta.png",
+      "name":"instagram",
+      "href":"#"
+    }
+  ],
+  "pages":[
+    {
+      "name":"Новости",
+      "href":"/news"
+    },
+    {
+      "name":"Медиа",
+      "href":"/media"
+    },
+    {
+      "name":"Промо",
+      "href":"/promo"
+    },
+    {
+      "name":"Арт",
+      "href":"/art"
+    },
+    {
+      "name":"Контакты",
+      "href":"/contacts"
+    }
+  ]
+}

@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
+import {firstEnterAnimation} from './_animations/firstEnter.animation';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  animations: [firstEnterAnimation],
+  template: `<main [@firstEnterAnimation]="getState(o)"><router-outlet #o="outlet"></router-outlet></main><app-nav></app-nav>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  getState(outlet) {
+    const result = outlet.activatedRouteData['state'];
+    return result;
+  }
+
 }
