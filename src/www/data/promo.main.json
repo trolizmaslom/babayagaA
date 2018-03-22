@@ -1,0 +1,66 @@
+{
+  "title":"ПРОМО",
+  "yagaUrl":"../images/baba-promo.png",
+  "appsTitle":"Приложения",
+  "rows":[
+    [
+      {
+        "title":"Куклы",
+        "listText":"28 кукол",
+        "listHref":"unicid01",
+        "itemText":"Кукла веселая «Бабка Ежка»",
+        "itemHref":"promo-article",
+        "img":"../images/by-little.png",
+        "role":""
+      },
+      {
+        "title":"Футболки",
+        "listText":"23 модели",
+        "listHref":"unicid01",
+        "itemText":"Футболка белая с изображением",
+        "itemHref":"promo-article",
+        "img":"../images/t-shirt.png",
+        "role":"big"
+      }
+    ],
+    [
+      {
+        "role":"false"
+      },
+      {
+        "title":"Канцелярия",
+        "listText":"134 предмета",
+        "listHref":"unicid03",
+        "itemText":"Записная книжка «Баба-Яга»",
+        "itemHref":"promo-article",
+        "img":"../images/wallet.png",
+        "role":""
+      },
+      {
+        "title":"Солнцезащитные очки",
+        "listText":"24 модели",
+        "listHref":"unicid02",
+        "itemText":"Обольстительница",
+        "itemHref":"promo-article",
+        "img":"../images/glases.png",
+        "role":""
+      }
+
+    ],
+    [
+      {
+        "title":"Значки",
+        "listText":"24 модели",
+        "listHref":"unicid03",
+        "itemText":"Значок «ВДПО»",
+        "itemHref":"promo-article",
+        "img":"../images/zn.png",
+        "role":""
+      }
+    ]
+  ],
+  "listHref":{
+    "text":"Все товары",
+    "href":"/promolist"
+  }
+}

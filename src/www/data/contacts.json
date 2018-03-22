@@ -1,0 +1,12 @@
+{
+  "title":"КОНТАКТЫ",
+  "yagaUrl":"../images/baba-contacts.png",
+  "adresTitle":"Адрес",
+  "adresText":"Екатеринбург, Невский проспект, д. 23, стр. 34",
+  "phoneTitle":"Телефон",
+  "phoneText":"+7 (495) 663 36 36",
+  "mailTitle":"Эл. почта",
+  "mailText":"info@baba-yaga.com",
+  "copyText":"Разработка, поддержка и продвижение —",
+  "copyImg":"../images/logomoksi.png"
+}

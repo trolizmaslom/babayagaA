@@ -1,0 +1,29 @@
+{
+  "title":"Другая футболка с Бабой Ягой",
+  "slides":[
+    "../images/slide-tshirt.jpg",
+    "../images/for-news-2.jpg",
+    "../images/t-shirt-big.jpg",
+    "../images/slide-tshirt.jpg"
+  ],
+  "description":[
+    {
+      "title":"Состав",
+      "text":"100% органический хлопок"
+    },
+    {
+      "title":"Размеры",
+      "text":"XS-XXL"
+    },
+    {
+      "title":"Ворот",
+      "text":"Круглый"
+    },
+    {
+      "title":"Цвет",
+      "text":"Фиолетовый"
+    }
+  ],
+  "sourceHref":"#",
+  "sourceText":"Купить в Галамарте"
+}

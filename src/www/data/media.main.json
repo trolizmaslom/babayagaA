@@ -1,0 +1,69 @@
+{
+  "title":"МЕДИА",
+  "yagaUrl":"../images/baba-media.png",
+  "photos":{
+    "title":"Фотоальбомы",
+    "listText":"Все фотоальбомы",
+    "listSize":"14",
+    "listHref":"scrollphoto",
+    "content":[
+      [
+        {
+          "img":"../images/for-news-1.jpg",
+          "text":"Дубай",
+          "href":"article-of-media123"
+        },
+        {
+          "img":"../images/for-news-1.jpg",
+          "text":"Дубай",
+          "href":"article-of-media123"
+        }
+      ],
+      [
+        {
+          "img":"../images/for-news-1.jpg",
+          "text":"Дубай",
+          "href":"article-of-media123"
+        },
+        {
+          "img":"../images/for-news-1.jpg",
+          "text":"Дубай",
+          "href":"article-of-media123"
+        }
+      ]
+    ]
+  },
+  "audios":{
+    "title":"Музыка Бабы-Яги",
+    "img":"../images/notes.png",
+    "listText":"Все песни",
+    "listSize":"14",
+    "listHref":"scrollmusic",
+    "tracks":[
+      {
+        "img":"../images/oblozh.jpg",
+        "title":"Новогодняя сумасшедшая",
+        "src":["../assets/data/test.mp3"]
+      },
+      {
+        "img":"../images/oblozh.jpg",
+        "title":"Новогодняя сумасшедшая",
+        "src":["../assets/data/test.mp3"]
+      },
+      {
+        "img":"../images/oblozh.jpg",
+        "title":"Новогодняя сумасшедшая",
+        "src":["../assets/data/test.mp3"]
+      }
+    ]
+  },
+  "video":{
+    "title":"Видео",
+    "img":"../images/all-video.jpg",
+    "listText":"Все видео",
+    "listSize":"134",
+    "listHref":"scrollvideo"
+  }
+
+}
+

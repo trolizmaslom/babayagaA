@@ -1,0 +1,172 @@
+{
+  "title":"ПРОМО",
+  "content":[
+    {
+      "title":"Футболки",
+      "article":"unicid01",
+      "rows":[
+        [
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/t-shirt.png",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Цветная веселая",
+              "img":"../images/t-shirt-2.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Цветная веселая",
+              "img":"../images/t-shirt-2.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Цветная веселая",
+              "img":"../images/t-shirt-2.jpg",
+              "article":"promo-article"
+            }
+          ],
+          [
+            {
+              "type":"big",
+              "title":"Большая футболка",
+              "img":"../images/t-shirt-big.jpg",
+              "article":"promo-article"
+            }
+          ]
+        ],
+        [
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/t-shirt.png",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Цветная веселая",
+              "img":"../images/t-shirt-2.jpg",
+              "article":"promo-article"
+            }
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "title":"Кепки",
+      "article":"unicid02",
+      "rows":[
+        [
+          [
+            {
+              "type":"big",
+              "title":"Бабушка черно-белая",
+              "img":"../images/kepka-big.jpg",
+              "article":"promo-article"
+            }
+          ],
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/kepka-small.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/kepka-small.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/kepka-small.jpg",
+              "article":"promo-article"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "title":"Канцелярия",
+      "article":"unicid03",
+      "rows":[
+        [
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/spider.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/spider.jpg",
+              "article":"promo-article"
+            }
+          ],
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/spider.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/spider.jpg",
+              "article":"promo-article"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "title":"Значки",
+      "article":"unicid04",
+      "rows":[
+        [
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/znak-1.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/znak-2.jpg",
+              "article":"promo-article"
+            }
+          ],
+          [
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/znak-3.jpg",
+              "article":"promo-article"
+            },
+            {
+              "type":"normal",
+              "title":"Бабушка черно-белая",
+              "img":"../images/spider.jpg",
+              "article":"promo-article"
+            }
+          ]
+        ]
+      ]
+    }
+  ]
+}

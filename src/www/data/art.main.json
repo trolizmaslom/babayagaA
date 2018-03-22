@@ -1,0 +1,42 @@
+{
+  "title":"АРТ",
+  "yagaUrl":"../images/baba-art.png",
+  "rows":[
+    [
+      {
+        "title":"Баба-Яга заняла свое почетное место на улицах города",
+        "img":"../images/bbb01.jpg",
+        "article":"baba-yaga-yaga-baba",
+        "role":"big"
+      }
+    ],
+    [
+      {
+        "role":false
+      },
+      {
+        "title":"4-8 декабря 2018 ищите меня в Майами",
+        "img":"../images/for-news-1.jpg",
+        "article":"baba-yaga-yaga-baba",
+        "role":"normal"
+      }
+    ],
+    [
+      {
+        "role":false
+      },
+      {
+        "title":"Баба-Яга заняла свое почетное место на улицах города",
+        "img":"../images/bbb02.jpg",
+        "article":"baba-yaga-yaga-baba",
+        "role":"big"
+      }
+    ]
+
+  ],
+  "listHref":{
+    "text":"Все выставки",
+    "href":"/artlist"
+  }
+}
+
