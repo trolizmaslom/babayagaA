@@ -1,0 +1,35 @@
+<div class="promo" appScrollPromo id="promo">
+  <div class="mbox">
+    <div class="promo__header">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+      </div>
+    </div>
+    <div  class="promo__torso anim-body media__torso">
+      <div class="list">
+        <div class="list__left">
+          <div class="list__block">
+            <div class="list__content">
+              <div *ngFor="let row of pageData?.rows" class="products__row">
+                <div *ngFor="let col of row" class="products__col">
+                  <div  *ngFor="let item of col" class="products__box" (click)="showPopup(item.article)" style="cursor: pointer;">
+                    <div class="products__img-box" [class.products__box--big]="item.type == 'big'">
+                      <img src="{{ item.img }}" alt="">
+                    </div>
+                    <a>{{ item.title }}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-popup
+    [@popupAnimation]="stater"
+    (close)="stater = 'hide'"
+    [pageData]="popupData"
+    [type]="type"></app-popup>
+</div>
+

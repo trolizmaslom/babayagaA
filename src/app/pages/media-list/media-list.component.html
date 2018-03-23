@@ -1,0 +1,83 @@
+<div class="promo" appScrollPromo id="promo">
+  <div class="mbox">
+    <div class="promo__header">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+      </div>
+    </div>
+    <div #torso class="promo__torso anim-body media__torso">
+      <div class="list">
+        <div class="list__left">
+          <div id="scrollphoto"
+            class="list__block scrollphoto">
+            <div class="list__title">
+              <h4 class="media__zagolovok">{{ pageData?.photoTitle }}</h4>
+            </div>
+            <div class="list__content">
+              <app-photo class="news__img-box media__img-box list__img-box" [class.empty]="!item" *ngFor="let item of pageData?.photos" [item]="item" (send)="showPopup($event, 'media')"></app-photo>
+              <div class="list__img-box list__img-box--last">
+                <span>{{ pageData?.photoSourceText }}<a href="{{ pageData?.photoSourceHref }}">{{ pageData?.photoSourceHrefText }}</a></span>
+                <img src="{{ pageData?.photoSourceHrefImg }}" alt="">
+              </div>
+            </div>
+          </div>
+          <div  id="scrollmusic"
+            class="list__block scrollmusic">
+            <div class="list__title">
+              <h4  class="media__zagolovok">{{pageData?.musicTitle}}</h4>
+            </div>
+            <div class="list__content">
+              <div class="list__music-wrap">
+                <div class="list__music">
+                  <app-audio [pageData]="pageData?.tracks"></app-audio>
+                </div>
+                <div class="list__about-music">
+                  <p>{{pageData?.musicSourceText}}</p>
+                  <div class="promo__apps list__apps">
+                    <div class="promo__app list__app">
+                      <app-appstore></app-appstore>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="scrollvideo"
+            class="list__block scrollvideo">
+            <div class="list__title">
+              <h4  class="media__zagolovok">Видео</h4>
+            </div>
+            <div class="list__content">
+              <div (click)="showPopup(video.article, 'media')" style="cursor: pointer;"
+                *ngFor="let video of pageData?.videos"
+                class="promo__product--big list__video">
+                <img [src]="video.img" alt="videos">
+                <a>{{ video.title }}</a>
+                <p>{{ video.digits}}</p>
+              </div>
+            </div>
+            <app-news-block *ngFor="let item of pageData?.newsrows;" class="promo__row" [item]="item" (send)="showPopup($event, 'news')"></app-news-block>
+          </div>
+        </div>
+        <div class="list__right">
+          <ul>
+            <li
+              scrollTo="{{ block.scrollid }}"
+              containerId="promo"
+              duration="500"
+              class="ts-section-title"
+              *ngFor="let block of pageData?.content; first as isFirst"
+              [class.active]="isFirst">
+              <button type="button" style="cursor: pointer;">{{ block.title }}</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-popup
+    [@popupAnimation]="stater"
+    (close)="stater = 'hide'"
+    [pageData]="popupData"
+    [type]="type"></app-popup>
+</div>

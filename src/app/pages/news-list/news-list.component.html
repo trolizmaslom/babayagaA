@@ -1,0 +1,43 @@
+<div class="promo" appScrollPromo  id="promo">
+  <div class="mbox">
+    <div class="promo__header">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+      </div>
+    </div>
+    <div class="promo__torso media__torso anim-body">
+      <div class="list">
+        <div class="list__left">
+          <div class="list__block {{ block.scrollid }}"
+               id="{{ block.scrollid }}"
+               *ngFor="let block of pageData?.content">
+            <div class="list__title">
+              <h4 class="media__zagolovok">{{ block.title }}</h4>
+            </div>
+            <div class="list__content">
+              <app-news-block *ngFor="let item of block.rows;" class="promo__row" [item]="item" (send)="showPopup($event)"></app-news-block>
+            </div>
+          </div>
+        </div>
+        <div class="list__right">
+          <ul>
+            <li
+              scrollTo="{{ block.scrollid }}"
+              containerId="promo"
+              duration="500"
+              class="ts-section-title"
+              *ngFor="let block of pageData?.content; first as isFirst"
+              [class.active]="isFirst">
+              <button type="button">{{ block.title }}</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-popup
+    [@popupAnimation]="stater"
+    (close)="stater = 'hide'"
+    [pageData]="popupData"
+    [type]="'news'"></app-popup>
+</div>

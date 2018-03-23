@@ -1,0 +1,27 @@
+<div
+  *ngFor="let prod of item" class="news__block"
+  [class.news__block--big]="prod.role == 'big'"
+  [class.news__block--down]="prod.bottomAlign">
+  <a *ngIf="prod.role == 'journal'" class="news__journal mbillboard" (click)="showPopup(prod.article)">
+    <span>{{ prod.title }}</span>
+    <div class="news__source">
+      <img src="{{ prod.img }}" alt="">
+    </div>
+    <p>{{ prod.data }}</p>
+  </a>
+  <div *ngIf="prod.role == 'normal' || prod.role == 'big'" class="mbillboard">
+    <div (click)="showPopup(prod.article)" style="cursor: pointer;">
+      <div class="news__img-box">
+        <img class="news__img-large" src="{{ prod.img }}" alt="">
+        <div *ngIf="prod.hot" class="news__hot">
+          <img src="../images/hot.png" alt="">
+        </div>
+      </div>
+      <button type="button"  class="news__sensation">{{ prod.title }}</button>
+    </div>
+    <p>{{ prod.data }}</p>
+    <a *ngIf="prod.sourceHref" href="{{ prod.sourceHref }}" class="news__img-little">
+      <img src="{{ prod.sourceImg }}" alt="">
+    </a>
+  </div>
+</div>

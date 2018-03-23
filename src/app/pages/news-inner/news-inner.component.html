@@ -1,0 +1,28 @@
+<div class="promo news-inn">
+  <div class="mbox mbox--inn">
+    <h4>{{ pageData?.title }}</h4>
+    <p class="news-inn__date">{{ pageData?.data }}</p>
+    <div *ngFor="let item of pageData?.mainContent">
+      <p class="news-inn__text" *ngIf="item.type == 'p'" [innerHtml]= "item.content"></p>
+      <div class="news-inn__img-place" *ngIf="item.type == 'img'">
+        <img src="{{ item.content }}" alt="">
+      </div>
+      <div *ngIf="item.type == 'slider'">
+        <div class="news-inn__img-place">
+          <img #img [src]="item.content[0]" alt="">
+        </div>
+        <div class="news-inn__slider-wrap">
+          <ngx-slick class="news-inn__slider" #slickModal="slick-modal" [config]="slideConfig">
+            <div class="news-inn__slide" *ngFor="let slide of item.content" ngxSlickItem>
+              <div class="href" (click)="img.src = slide"><img src="{{ slide }}" alt=""></div>
+            </div>
+          </ngx-slick>
+        </div>
+      </div>
+    </div>
+    <p class="news-inn__date">{{ pageData?.sourceTitle }}</p>
+    <a href="{{ pageData?.sourceHref }}" class="news-inn__source">{{ pageData?.sourceHref }}</a>
+  </div>
+  <button type="button" class="news-inn__closer" (click)="onBackButton()"></button>
+</div>
+

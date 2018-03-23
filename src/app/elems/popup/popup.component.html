@@ -1,0 +1,83 @@
+<div class="news-inn" *ngIf="type == 'news'">
+  <div class="mbox mbox--inn">
+    <h4>{{ pageData?.title }}</h4>
+    <p class="news-inn__date">{{ pageData?.data }}</p>
+    <div *ngFor="let item of pageData?.mainContent">
+      <p class="news-inn__text" *ngIf="item.type == 'p'" [innerHtml]= "item.content"></p>
+      <div class="news-inn__img-place" *ngIf="item.type == 'img'">
+        <img src="{{ item.content }}" alt="">
+      </div>
+      <div *ngIf="item.type == 'slider'">
+        <div class="news-inn__img-place">
+          <img #img [src]="item.content[0]" alt="">
+        </div>
+        <div class="news-inn__slider-wrap">
+          <ngx-slick class="news-inn__slider" [config]="newsSlideConfig">
+            <div class="news-inn__slide" *ngFor="let slide of item.content" ngxSlickItem>
+              <div class="href" (click)="img.src = slide"><img src="{{ slide }}" alt=""></div>
+            </div>
+          </ngx-slick>
+        </div>
+      </div>
+    </div>
+    <p class="news-inn__date">{{ pageData?.sourceTitle }}</p>
+    <a href="{{ pageData?.sourceHref }}" class="news-inn__source">{{ pageData?.sourceHref }}</a>
+  </div>
+</div>
+<div class="new-inn gallery"  *ngIf="type == 'media'">
+  <div class="mbox mbox--inn">
+    <div class="gallery__slider-wrap" *ngIf="pageData?.type == 'photo'">
+      <ngx-slick class="gallery__slider"   [config]="mediaSlideConfig">
+        <div
+          ngxSlickItem
+          *ngFor="let slide of pageData?.slides"
+          class="gallery__slide">
+          <div class="gallery__image">
+            <img [src]="slide.img" alt="">
+          </div>
+          <div class="gallery__source">
+            <img [src]="slide.sourceIcon" alt="" class="gallery__source-img">
+            <a href="{{ slide.sourceHref }}" class="gallery__source-where">{{ slide.sourceText }}</a>
+          </div>
+        </div>
+      </ngx-slick>
+    </div>
+    <div style="height: 0; padding-bottom: 56.25%; width: 100%;" *ngIf="pageData?.type == 'video'">
+      <iframe  width="560" height="315" [src]="getYtUrl(pageData?.iframe)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<div class="new-inn gallery products" *ngIf="type == 'promo'">
+  <div class="mbox mbox--inn">
+    <div class="products__slider-wrap">
+      <div class="products__left-part">
+        <ngx-slick *ngIf="type == 'promo'" class="products__slider" [config]="mediaSlideConfig">
+          <div
+            ngxSlickItem
+            *ngFor="let slide of pageData?.slides"
+            class="products__slide">
+            <div class="products__view">
+              <img src="{{ slide }}" alt="">
+            </div>
+          </div>
+        </ngx-slick>
+      </div>
+      <div class="products__right-part">
+        <div class="products__about">
+          <h4>{{ pageData?.title}}</h4>
+          <div
+            *ngFor="let d of pageData?.description"
+            class="products__row-txt">
+            <p>{{ d.title }}</p>
+            <span>{{ d.text }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="promo__button-place products__button-place">
+      <a [href]="pageData?.sourceHref" class="button promo__button"><span>{{ pageData?.sourceText}}</span></a>
+    </div>
+
+  </div>
+</div>
+<button type="button" (click)="closePopup()" class="news-inn__closer"></button>

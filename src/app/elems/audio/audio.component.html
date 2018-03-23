@@ -1,0 +1,10 @@
+<div class="media__track" *ngFor="let item of pageData">
+  <div class="media__track-img">
+    <img src="{{ item.img }}" alt="">
+  </div>
+  <button type="button" class="media__play" [class.active]="!audio.paused" (click)="checkAudio(audio)"></button>
+  <p>{{ item.title }}<span>{{ item.duration }}</span></p>
+  <audio #audio class="ts-elems-audio">
+    <source *ngFor="let src of item.src" src="{{ src }}">
+  </audio>
+</div>

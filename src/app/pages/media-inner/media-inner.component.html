@@ -1,0 +1,24 @@
+<div class="new-inn gallery">
+  <div class="mbox mbox--inn">
+    <div class="gallery__slider-wrap" *ngIf="pageData?.type == 'photo'">
+      <ngx-slick class="gallery__slider"  #slickModal="slick-modal" [config]="slideConfig">
+        <div
+          ngxSlickItem
+          *ngFor="let slide of pageData?.slides"
+          class="gallery__slide">
+          <div class="gallery__image">
+            <img [src]="slide.img" alt="">
+          </div>
+          <div class="gallery__source">
+            <img [src]="slide.sourceIcon" alt="" class="gallery__source-img">
+            <a href="{{ slide.sourceHref }}" class="gallery__source-where">{{ slide.sourceText }}</a>
+          </div>
+        </div>
+      </ngx-slick>
+    </div>
+    <div style="height: 0; padding-bottom: 56.25%; width: 100%;" *ngIf="pageData?.type == 'video'">
+      <iframe  width="560" height="315" [src]="getYtUrl(pageData?.iframe)" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+  <button type="button" class="news-inn__closer" (click)="onBackButton()"></button>
+</div>
