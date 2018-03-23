@@ -1,16 +1,16 @@
 {
   "title":"НОВОСТИ",
-  "yagaUrl":"../images/baba-news.png",
+  "yagaUrl":"../babayaga/images/baba-news.png",
   "apps":{
     "title":"Приложения",
     "links":[
       {
         "href":"#",
-        "img":"../images/appstore.png"
+        "img":"../babayaga/images/appstore.png"
       },
       {
         "href":"#",
-        "img":"../images/googleapp.png"
+        "img":"../babayaga/images/googleapp.png"
       }
     ]
   },
@@ -18,10 +18,10 @@
     [
       {
         "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "img":"../images/for-news-1.jpg",
+        "img":"../babayaga/images/for-news-1.jpg",
         "article":"baba-yaga-yaga-baba",
         "data":"8 февраля",
-        "sourceImg":"../images/channel-5.png",
+        "sourceImg":"../babayaga/images/channel-5.png",
         "sourceHref":"#",
         "role":"normal",
         "hot":false,
@@ -29,7 +29,7 @@
       },
       {
         "title":"Большая статья в журнале",
-        "img":"../images/esquire.png",
+        "img":"../babayaga/images/esquire.png",
         "article":"baba-yaga-yaga-baba",
         "data":"8 февраля",
         "sourceImg":"",
@@ -40,10 +40,10 @@
       },
       {
         "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "img":"../images/for-news-1.jpg",
+        "img":"../babayaga/images/for-news-1.jpg",
         "article":"baba-yaga-yaga-baba",
         "data":"8 февраля",
-        "sourceImg":"../images/channel-5.png",
+        "sourceImg":"../babayaga/images/channel-5.png",
         "sourceHref":"#",
         "role":"normal",
         "hot":true,
@@ -53,7 +53,7 @@
     [
       {
         "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "img":"../images/all-video.jpg",
+        "img":"../babayaga/images/all-video.jpg",
         "article":"dd17",
         "data":"8 февраля",
         "sourceImg":"",
@@ -64,7 +64,7 @@
       },
       {
         "title":"Большая статья в журнале",
-        "img":"../images/esquire.png",
+        "img":"../babayaga/images/esquire.png",
         "article":"baba-yaga-yaga-baba",
         "data":"8 февраля",
         "sourceImg":"",
@@ -77,10 +77,10 @@
     [
       {
         "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "img":"../images/for-news-1.jpg",
+        "img":"../babayaga/images/for-news-1.jpg",
         "article":"bitaya-silo4ka",
         "data":"8 февраля",
-        "sourceImg":"../images/channel-5.png",
+        "sourceImg":"../babayaga/images/channel-5.png",
         "sourceHref":"#",
         "role":"normal",
         "hot":false,
@@ -88,10 +88,10 @@
       },
       {
         "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "img":"../images/for-news-1.jpg",
+        "img":"../babayaga/images/for-news-1.jpg",
         "article":"dd17",
         "data":"8 февраля",
-        "sourceImg":"../images/channel-5.png",
+        "sourceImg":"../babayaga/images/channel-5.png",
         "sourceHref":"#",
         "role":"normal",
         "hot":false,
@@ -101,7 +101,7 @@
     [
       {
         "title":"Большая статья в журнале",
-        "img":"../images/esquire.png",
+        "img":"../babayaga/images/esquire.png",
         "article":"dd17",
         "data":"8 февраля",
         "sourceImg":"",
@@ -112,7 +112,7 @@
       },
       {
         "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "img":"../images/all-video.jpg",
+        "img":"../babayaga/images/all-video.jpg",
         "article":"samoe-strashnoe-dinamicheskiy-link",
         "data":"8 февраля",
         "sourceImg":"",

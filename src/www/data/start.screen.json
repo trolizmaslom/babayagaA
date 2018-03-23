@@ -1,77 +1,78 @@
 {
+  "mlogo":"../babayaga/images/logobig.png",
   "title":"Добро пожаловать ",
   "title2":"к бабушке Яге",
-  "yagaUrl":"../images/baba.png",
+  "yagaUrl":"../babayaga/images/baba.png",
   "slider":{
     "title":"Последние обновления",
     "slides":[
       {
         "text":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "href":"#",
+        "article":"dd17",
         "date":"8 февраля",
         "listText":"Новости",
-        "listHref":"#"
+        "listHref":"news"
       },
       {
         "text":"Теперь мы шьем еще и прикольные толстовки",
-        "href":"#",
+        "article":"type-product-gallery",
         "date":"4 февраля",
-        "listText":"Промо",
-        "listHref":"#"
+        "listText":"Медиа",
+        "listHref":"media"
       },
       {
         "text":"Новая выставка «Артмо»",
-        "href":"#",
+        "article":"promo-article",
         "date":"1 февраля",
         "listText":"Промо",
-        "listHref":"#"
+        "listHref":"promo"
       },
       {
         "text":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "href":"#",
+        "article":"baba-yaga-yaga-baba",
         "date":"8 февраля",
         "listText":"Новости",
-        "listHref":"#"
+        "listHref":"news"
       },
       {
         "text":"Теперь мы шьем еще и прикольные толстовки",
-        "href":"#",
+        "article":"promo-article",
         "date":"4 февраля",
         "listText":"Промо",
-        "listHref":"#"
+        "listHref":"promo"
       },
       {
         "text":"Новая выставка «Артмо»",
-        "href":"#",
+        "article":"promo-article",
         "date":"1 февраля",
         "listText":"Промо",
-        "listHref":"#"
+        "listHref":"promo"
       },
       {
         "text":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
-        "href":"#",
+        "article":"dd17",
         "date":"8 февраля",
         "listText":"Новости",
-        "listHref":"#"
+        "listHref":"news"
       },
       {
         "text":"Теперь мы шьем еще и прикольные толстовки",
-        "href":"#",
+        "article":"promo-article",
         "date":"4 февраля",
         "listText":"Промо",
-        "listHref":"#"
+        "listHref":"promo"
       },
       {
         "text":"Новая выставка «Артмо»",
-        "href":"#",
+        "article":"promo-article",
         "date":"1 февраля",
         "listText":"Промо",
-        "listHref":"#"
+        "listHref":"promo"
       }
     ]
   },
   "listHref":{
     "text":"Начни путешествие",
-    "img":"../images/scroll.png"
+    "img":"../babayaga/images/scroll.png"
   }
 }

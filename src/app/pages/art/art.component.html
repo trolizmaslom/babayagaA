@@ -1,80 +1,39 @@
-<div class="promo">
+<div class="promo" appScrollPromo>
   <div class="mbox">
     <div class="promo__header">
-      <h2 class="anim-title">Fhntrr</h2>
-      <div class="promo__baba anim-baba">
-        <img src="../images/baba-promo.png" alt="baba">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+        <div class="promo__baba promo__baba--left anim-baba">
+          <img src="{{ pageData?.yagaUrl }}" alt="baba">
+        </div>
       </div>
     </div>
-    <div class="promo__torso anim-body">
+    <div #torso class="promo__torso anim-body promo__torso--left">
       <div class="promo__right">
-        <div class="promo__apps">
-          <div class="promo__app">
-            <p>Приложения</p>
-            <div class="promo__aplicates">
-              <a href="#" class="promo__app--apple"><img src="../images/appstore.png" alt="app"></a>
-              <a href="#" class="promo__app--google"><img src="../images/googleapp.png" alt="google"></a>
+        <div *ngFor="let item of pageData?.rows;" class="promo__row">
+          <div *ngFor="let prod of item" class="news__block" (click)="showPopup(prod.article)" style="cursor: pointer;"
+               [class.news__block--big]="prod.role == 'big'">
+            <div *ngIf="prod.role != false" class="mbillboard">
+              <div class="news__img-box">
+                <img class="news__img-large" src="{{ prod.img }}" alt="">
+                <div *ngIf="prod.hot" class="news__hot">
+                  <img src="../images/hot.png" alt="">
+                </div>
+              </div>
+              <a class="news__sensation">{{ prod.title }}</a>
+              <p>{{ prod.data }}</p>
             </div>
           </div>
         </div>
-        <div class="promo__row">
-          <div class="promo__place-one">
-            <div class="promo__product promo__little">
-              <div>
-                <p>Куклы</p>
-                <a href="#">28 кукол</a>
-              </div>
-              <a href="#">Кукла веселая «Бабка Ежка»</a>
-              <img src="../images/by-little.png" alt="little">
-            </div>
-            <div class="promo__product promo__big">
-              <div>
-                <p>Футболки</p>
-                <a href="#">23 модели</a>
-              </div>
-              <a href="">Футболка белая с изображением</a>
-              <img src="../images/t-shirt.png" alt="t-shirt">
-            </div>
-          </div>
-        </div>
-        <div class="promo__row promo__row--right">
-          <div class="promo__place-two">
-            <div class="promo__product promo__little">
-              <div>
-                <p>Канцелярия</p>
-                <a href="#">134 предмета</a>
-              </div>
-              <a href="#">Записная книжка «Баба-Яга»</a>
-              <img src="../images/wallet.png" alt="little">
-            </div>
-            <div class="promo__product promo__little">
-              <div>
-                <p>Солнцезащитные очки</p>
-                <a href="#">24 модели</a>
-              </div>
-              <a href="#">Обольстительница</a>
-              <img src="../images/glases.png" alt="little">
-            </div>
-          </div>
-        </div>
-        <div class="promo__row promo__row--left">
-          <div class="promo__place-two">
-            <div class="promo__product promo__little">
-              <div>
-                <p>Значки</p>
-                <a href="#">13 видов</a>
-              </div>
-              <a href="#">Значок «ВДПО»</a>
-              <img src="../images/zn.png" alt="little">
-            </div>
-          </div>
-        </div>
-
         <div class="promo__button-place">
-          <a href="#" class="button promo__button"><span>Все товары</span></a>
+          <a [routerLink]="pageData?.listHref.href" class="button promo__button"><span>{{pageData?.listHref.text}}</span></a>
         </div>
-
       </div>
     </div>
   </div>
+  <app-popup
+    [@popupAnimation]="stater"
+    (close)="stater = 'hide'"
+    [pageData]="popupData"
+    [type]="'news'"></app-popup>
 </div>

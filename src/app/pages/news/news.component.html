@@ -1,3 +1,25 @@
-<p>
-  news works!
-</p>
+<div class="promo" appScrollPromo>
+  <div class="mbox">
+    <div class="promo__header">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+        <div class="promo__baba news__baba anim-baba">
+          <img src="{{ pageData?.yagaUrl }}" alt="baba">
+        </div>
+      </div>
+    </div>
+    <div class="promo__torso anim-body">
+      <div class="promo__right">
+        <app-news-block *ngFor="let item of pageData?.rows;" class="promo__row news__row" [item]="item" (send)="showPopup($event)"></app-news-block>
+        <div class="promo__button-place">
+          <a [routerLink]="pageData?.listHref.href" class="button promo__button"><span>{{pageData?.listHref.text}}</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-popup
+    [@popupAnimation]="stater"
+    (close)="stater = 'hide'"
+    [pageData]="popupData"
+    [type]="'news'"></app-popup>
+</div>

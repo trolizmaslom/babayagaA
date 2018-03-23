@@ -10,25 +10,25 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/t-shirt.png",
+              "img":"../babayaga/images/t-shirt.png",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Цветная веселая",
-              "img":"../images/t-shirt-2.jpg",
+              "img":"../babayaga/images/t-shirt-2.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Цветная веселая",
-              "img":"../images/t-shirt-2.jpg",
+              "img":"../babayaga/images/t-shirt-2.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Цветная веселая",
-              "img":"../images/t-shirt-2.jpg",
+              "img":"../babayaga/images/t-shirt-2.jpg",
               "article":"promo-article"
             }
           ],
@@ -36,7 +36,7 @@
             {
               "type":"big",
               "title":"Большая футболка",
-              "img":"../images/t-shirt-big.jpg",
+              "img":"../babayaga/images/t-shirt-big.jpg",
               "article":"promo-article"
             }
           ]
@@ -46,13 +46,13 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/t-shirt.png",
+              "img":"../babayaga/images/t-shirt.png",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Цветная веселая",
-              "img":"../images/t-shirt-2.jpg",
+              "img":"../babayaga/images/t-shirt-2.jpg",
               "article":"promo-article"
             }
           ],
@@ -69,7 +69,7 @@
             {
               "type":"big",
               "title":"Бабушка черно-белая",
-              "img":"../images/kepka-big.jpg",
+              "img":"../babayaga/images/kepka-big.jpg",
               "article":"promo-article"
             }
           ],
@@ -77,19 +77,19 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/kepka-small.jpg",
+              "img":"../babayaga/images/kepka-small.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/kepka-small.jpg",
+              "img":"../babayaga/images/kepka-small.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/kepka-small.jpg",
+              "img":"../babayaga/images/kepka-small.jpg",
               "article":"promo-article"
             }
           ]
@@ -105,13 +105,13 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/spider.jpg",
+              "img":"../babayaga/images/spider.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/spider.jpg",
+              "img":"../babayaga/images/spider.jpg",
               "article":"promo-article"
             }
           ],
@@ -119,13 +119,13 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/spider.jpg",
+              "img":"../babayaga/images/spider.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/spider.jpg",
+              "img":"../babayaga/images/spider.jpg",
               "article":"promo-article"
             }
           ]
@@ -141,13 +141,13 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/znak-1.jpg",
+              "img":"../babayaga/images/znak-1.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/znak-2.jpg",
+              "img":"../babayaga/images/znak-2.jpg",
               "article":"promo-article"
             }
           ],
@@ -155,13 +155,13 @@
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/znak-3.jpg",
+              "img":"../babayaga/images/znak-3.jpg",
               "article":"promo-article"
             },
             {
               "type":"normal",
               "title":"Бабушка черно-белая",
-              "img":"../images/spider.jpg",
+              "img":"../babayaga/images/spider.jpg",
               "article":"promo-article"
             }
           ]

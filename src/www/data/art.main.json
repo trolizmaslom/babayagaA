@@ -1,11 +1,11 @@
 {
   "title":"АРТ",
-  "yagaUrl":"../images/baba-art.png",
+  "yagaUrl":"../babayaga/images/baba-art.png",
   "rows":[
     [
       {
         "title":"Баба-Яга заняла свое почетное место на улицах города",
-        "img":"../images/bbb01.jpg",
+        "img":"../babayaga/images/bbb01.jpg",
         "article":"baba-yaga-yaga-baba",
         "role":"big"
       }
@@ -16,7 +16,7 @@
       },
       {
         "title":"4-8 декабря 2018 ищите меня в Майами",
-        "img":"../images/for-news-1.jpg",
+        "img":"../babayaga/images/for-news-1.jpg",
         "article":"baba-yaga-yaga-baba",
         "role":"normal"
       }
@@ -27,7 +27,7 @@
       },
       {
         "title":"Баба-Яга заняла свое почетное место на улицах города",
-        "img":"../images/bbb02.jpg",
+        "img":"../babayaga/images/bbb02.jpg",
         "article":"baba-yaga-yaga-baba",
         "role":"big"
       }

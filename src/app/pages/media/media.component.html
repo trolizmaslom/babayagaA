@@ -1,3 +1,57 @@
-<p>
-  media works!
-</p>
+<div class="promo" appScrollPromo>
+  <div class="mbox">
+    <div class="promo__header">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+        <div class="promo__baba media__baba anim-baba">
+          <img src="{{ pageData?.yagaUrl }}" alt="baba">
+        </div>
+      </div>
+    </div>
+    <div class="promo__torso media__torso anim-body">
+      <div class="promo__right media__right">
+        <div class="media__photos">
+          <span class="media__zagolovok">{{pageData?.photos.title}}</span>
+          <div class="media__intro">
+            <div class="media__all">
+              <div class="media__row" *ngFor="let row of pageData?.photos.content" >
+                <app-photo class="news__img-box media__img-box" *ngFor="let item of row" [item]="item" (send)="showPopup($event)"></app-photo>
+              </div>
+            </div>
+          </div>
+          <div class="media__gather">
+            <a (click)="onList(pageData?.photos.listHref)">{{pageData?.photos.listText}}</a> <span class="media__count">{{pageData?.photos.listSize}}</span>
+          </div>
+        </div>
+        <div class="promo__row media__place--right">
+          <div class="media__songs">
+            <span class="media__zagolovok">{{pageData?.audios.title}}</span>
+            <img src="{{pageData?.audios.img}}" alt="">
+            <div class="media__tracks">
+              <app-audio [pageData]="pageData?.audios.tracks"></app-audio>
+            </div>
+            <div class="media__gather">
+              <a (click)="onList(pageData?.audios.listHref)" >{{pageData?.audios.listText}}</a> <span class="media__count">{{pageData?.audios.listSize}}</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo__row media__place">
+          <div class="promo__product--big media__video">
+            <div class="media__vid-body" (click)="onList(pageData?.video.listHref)" style="cursor: pointer;">
+              <span class="media__zagolovok media__zagolovok--white">{{pageData?.video.title}}</span>
+              <div class="media__gather">
+                <a>{{pageData?.video.listText}}</a> <span class="media__count">{{pageData?.video.listSize}}</span>
+              </div>
+            </div>
+            <img src="{{pageData?.video.img}}" alt="videos">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-popup
+    [@popupAnimation]="stater"
+    (close)="stater = 'hide'"
+    [pageData]="popupData"
+    [type]="'media'"></app-popup>
+</div>

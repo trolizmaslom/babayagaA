@@ -1,0 +1,12 @@
+{
+  "links":[
+    {
+      "href":"#",
+      "img":"../images/appstore.png"
+    },
+    {
+      "href":"#",
+      "img":"../images/googleapp.png"
+    }
+  ]
+}

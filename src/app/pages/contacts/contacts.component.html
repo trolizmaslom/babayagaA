@@ -1,3 +1,27 @@
-<p>
-  contacts works!
-</p>
+<div class="promo">
+  <div class="mbox">
+    <div class="promo__header">
+      <div class="mbox">
+        <h2 class="anim-title">{{pageData?.title}}</h2>
+        <div class="promo__baba anim-baba contacts__baba">
+          <img src="{{ pageData?.yagaUrl }}" alt="baba">
+        </div>
+      </div>
+    </div>
+    <div class="promo__torso anim-body">
+      <div class="promo__right contacts">
+        <div class="contacts__title">{{pageData?.adresTitle}}</div>
+        <div class="contacts__text">{{pageData?.adresText}}</div>
+        <div class="contacts__title">{{pageData?.phoneTitle}}</div>
+        <div class="contacts__text">{{pageData?.phoneText}}</div>
+        <div class="contacts__title">{{pageData?.mailTitle}}</div>
+        <div class="contacts__text"><a href="mailto:{{pageData?.mailText}}">{{pageData?.mailText}}</a></div>
+        <div class="contacts__copyright">
+          <div class="contacts__title">{{pageData?.copyText}}</div>
+          <img src="{{pageData?.copyImg}}" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

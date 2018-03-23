@@ -1,36 +1,24 @@
 {
   "title":"ПРОМО",
   "yagaUrl":"../images/baba-promo.png",
-  "apps":{
-    "title":"Приложения",
-    "links":[
-      {
-        "href":"#",
-        "img":"../images/appstore.png"
-      },
-      {
-        "href":"#",
-        "img":"../images/googleapp.png"
-      }
-    ]
-  },
+  "appsTitle":"Приложения",
   "rows":[
     [
       {
         "title":"Куклы",
         "listText":"28 кукол",
-        "listHref":"#",
+        "listHref":"unicid01",
         "itemText":"Кукла веселая «Бабка Ежка»",
-        "itemHref":"#",
+        "itemHref":"promo-article",
         "img":"../images/by-little.png",
         "role":""
       },
       {
         "title":"Футболки",
         "listText":"23 модели",
-        "listHref":"#",
+        "listHref":"unicid01",
         "itemText":"Футболка белая с изображением",
-        "itemHref":"#",
+        "itemHref":"promo-article",
         "img":"../images/t-shirt.png",
         "role":"big"
       }
@@ -42,18 +30,18 @@
       {
         "title":"Канцелярия",
         "listText":"134 предмета",
-        "listHref":"#",
+        "listHref":"unicid03",
         "itemText":"Записная книжка «Баба-Яга»",
-        "itemHref":"#",
+        "itemHref":"promo-article",
         "img":"../images/wallet.png",
         "role":""
       },
       {
         "title":"Солнцезащитные очки",
         "listText":"24 модели",
-        "listHref":"#",
+        "listHref":"unicid02",
         "itemText":"Обольстительница",
-        "itemHref":"#",
+        "itemHref":"promo-article",
         "img":"../images/glases.png",
         "role":""
       }
@@ -62,10 +50,10 @@
     [
       {
         "title":"Значки",
-        "listText":"13 видов",
-        "listHref":"#",
+        "listText":"24 модели",
+        "listHref":"unicid03",
         "itemText":"Значок «ВДПО»",
-        "itemHref":"#",
+        "itemHref":"promo-article",
         "img":"../images/zn.png",
         "role":""
       }
@@ -73,6 +61,6 @@
   ],
   "listHref":{
     "text":"Все товары",
-    "href":"#"
+    "href":"/promolist"
   }
 }

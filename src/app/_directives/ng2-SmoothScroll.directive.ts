@@ -5,26 +5,26 @@ import { Directive, Input, HostListener } from '@angular/core';
 })
 
 export class SmoothScrollToDirective {
-	targetElement: any;
-	callbackBeforeEx: any;
-	callbackAfterEx: any;
+ targetElement: any;
+ callbackBeforeEx: any;
+ callbackAfterEx: any;
 
-	constructor() { }
+ constructor() { }
 
-	@Input() scrollTo: any;
-	@Input() duration: number;
-	@Input() offset: number;
-	@Input() easing: string;
-	@Input() callbackBefore: any;
-	@Input() callbackAfter: any;
-	@Input() containerId: string;
+ @Input() scrollTo: any;
+ @Input() duration: number;
+ @Input() offset: number;
+ @Input() easing: string;
+ @Input() callbackBefore: any;
+ @Input() callbackAfter: any;
+ @Input() containerId: string;
 
-	@HostListener('click') onClick() {
+ @HostListener('click') onClick() {
 
-		this.targetElement = document.getElementById(this.scrollTo);
-		if (!this.targetElement) return;
-		let _callbackBefore = this.callbackBefore;
-		let callbackBefore = function (element) {
+ this.targetElement = document.getElementById(this.scrollTo);
+ if (!this.targetElement) {return;}
+ let _callbackBefore = this.callbackBefore;
+ let callbackBefore = function (element) {
 			if (_callbackBefore) {
 				let exprHandler = this.callbackBeforeEx({ element: element });
 				if (typeof exprHandler === 'function') {

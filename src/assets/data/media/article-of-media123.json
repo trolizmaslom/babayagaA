@@ -1,0 +1,53 @@
+{
+  "type":"photo",
+  "slides":[
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    },
+    {
+      "img":"../images/gallery-1.jpg",
+      "sourceText":"Смотреть в Instagram",
+      "sourceHref":"#",
+      "sourceIcon":"../images/instagramm.png"
+    }
+  ]
+}

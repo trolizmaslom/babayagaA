@@ -8,6 +8,7 @@ import {firstEnterAnimation} from './_animations/firstEnter.animation';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   getState(outlet) {
     const result = outlet.activatedRouteData['state'];
     return result;

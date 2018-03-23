@@ -1,0 +1,182 @@
+{
+  "title":"МЕДИА",
+  "content":[
+    {
+      "title":"Фотоальбомы",
+      "scrollid":"scrollphoto"
+    },
+    {
+      "title":"Музыка",
+      "scrollid":"scrollmusic"
+    },
+    {
+      "title":"Видео",
+      "scrollid":"scrollvideo"
+    }
+  ],
+  "videos":[
+    {
+      "title":"Баба Яга на Miami Art Week 2017",
+      "img":"../images/all-video.jpg",
+      "article":"type-product-gallery",
+      "digits":"15:45"
+    },
+    {
+      "title":"Баба Яга на Miami Art Week 2017",
+      "img":"../images/all-video.jpg",
+      "article":"type-product-gallery",
+      "digits":"15:45"
+    },
+    {
+      "title":"Баба Яга на Miami Art Week 2017",
+      "img":"../images/all-video.jpg",
+      "article":"type-product-gallery",
+      "digits":"15:45"
+    },
+    {
+      "title":"Баба Яга на Miami Art Week 2017",
+      "img":"../images/all-video.jpg",
+      "article":"type-product-gallery",
+      "digits":"15:45"
+    }
+  ],
+  "newsrows":[
+    [
+      {
+        "title":"Большая статья в журнале",
+        "img":"../images/esquire.png",
+        "article":"dd17",
+        "data":"8 февраля",
+        "sourceImg":"",
+        "sourceHref":"",
+        "role":"journal",
+        "hot":true,
+        "bottomAlign":false
+      },
+      {
+        "title":"Большая статья в журнале",
+        "img":"../images/esquire.png",
+        "article":"baba-yaga-yaga-baba",
+        "data":"8 февраля",
+        "sourceImg":"",
+        "sourceHref":"",
+        "role":"journal",
+        "hot":true,
+        "bottomAlign":false
+      },
+      {
+        "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
+        "img":"../images/for-news-1.jpg",
+        "article":"baba-yaga-yaga-baba",
+        "data":"8 февраля",
+        "sourceImg":"../images/channel-5.png",
+        "sourceHref":"#",
+        "role":"normal",
+        "hot":true,
+        "bottomAlign":false
+      },
+      {
+        "title":"Жителей Екатеринбурга шокировала Баба Яга в ступе",
+        "img":"../images/all-video.jpg",
+        "article":"samoe-strashnoe-dinamicheskiy-link",
+        "data":"8 февраля",
+        "sourceImg":"",
+        "sourceHref":"#",
+        "role":"normal",
+        "hot":false,
+        "bottomAlign":false
+      }
+    ]
+  ],
+  "tracks":[
+    {
+      "img":"../images/oblozh.jpg",
+      "title":"Новогодняя сумасшедшая",
+      "src":["../assets/data/test.mp3"]
+    },
+    {
+      "img":"../images/oblozh.jpg",
+      "title":"Новогодняя сумасшедшая",
+      "src":["../assets/data/test.mp3"]
+    },
+    {
+      "img":"../images/oblozh.jpg",
+      "title":"Новогодняя сумасшедшая",
+      "src":["../assets/data/test.mp3"]
+    },
+    {
+      "img":"../images/oblozh.jpg",
+      "title":"Новогодняя сумасшедшая",
+      "src":["../assets/data/test.mp3"]
+    },
+    {
+      "img":"../images/oblozh.jpg",
+      "title":"Новогодняя сумасшедшая",
+      "src":["../assets/data/test.mp3"]
+    }
+  ],
+  "photos":[
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    false,
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    false,
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    false,
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    false,
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    {
+      "img":"../images/for-news-1.jpg",
+      "text":"Дубай",
+      "href":"article-of-media123"
+    },
+    false
+  ],
+  "photoTitle":"Фотоальбомы",
+  "photoSourceText":"Больше фото в",
+  "photoSourceHrefText":"нашем профиле",
+  "photoSourceHrefImg":"../images/instagramm.png",
+  "photoSourceHref":"#",
+  "musicTitle":"Музыка",
+  "musicSourceText":"Бабушка ездит по миру да песни поет. Складные и ладные, всем на зависть да на радость. Песни русские доступны на Гугл Плее и Айтюнсе. Заходи да качай себе в плееры."
+}

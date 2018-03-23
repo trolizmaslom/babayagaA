@@ -1,25 +1,26 @@
 {
-  "logo":"../images/logo.png",
+  "decor":"../babayaga/images/def.png",
+  "logo":"../babayaga/images/logo.png",
   "lang":"In english",
   "langhref":"In english",
   "socials":[
     {
-      "imgUrl":"../images/vk.png",
+      "imgUrl":"../babayaga/images/vk.png",
       "name":"vkontakte",
       "href":"#"
     },
     {
-      "imgUrl":"../images/you.png",
+      "imgUrl":"../babayaga/images/you.png",
       "name":"youtube",
       "href":"#"
     },
     {
-      "imgUrl":"../images/face.png",
+      "imgUrl":"../babayaga/images/face.png",
       "name":"facebook",
       "href":"#"
     },
     {
-      "imgUrl":"../images/insta.png",
+      "imgUrl":"../babayaga/images/insta.png",
       "name":"instagram",
       "href":"#"
     }

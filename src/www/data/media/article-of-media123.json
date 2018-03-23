@@ -2,52 +2,52 @@
   "type":"photo",
   "slides":[
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     },
     {
-      "img":"../images/gallery-1.jpg",
+      "img":"../babayaga/images/gallery-1.jpg",
       "sourceText":"Смотреть в Instagram",
       "sourceHref":"#",
-      "sourceIcon":"../images/instagramm.png"
+      "sourceIcon":"../babayaga/images/instagramm.png"
     }
   ]
 }

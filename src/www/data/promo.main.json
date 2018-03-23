@@ -1,6 +1,6 @@
 {
   "title":"ПРОМО",
-  "yagaUrl":"../images/baba-promo.png",
+  "yagaUrl":"../babayaga/images/baba-promo.png",
   "appsTitle":"Приложения",
   "rows":[
     [
@@ -10,7 +10,7 @@
         "listHref":"unicid01",
         "itemText":"Кукла веселая «Бабка Ежка»",
         "itemHref":"promo-article",
-        "img":"../images/by-little.png",
+        "img":"../babayaga/images/by-little.png",
         "role":""
       },
       {
@@ -19,7 +19,7 @@
         "listHref":"unicid01",
         "itemText":"Футболка белая с изображением",
         "itemHref":"promo-article",
-        "img":"../images/t-shirt.png",
+        "img":"../babayaga/images/t-shirt.png",
         "role":"big"
       }
     ],
@@ -33,7 +33,7 @@
         "listHref":"unicid03",
         "itemText":"Записная книжка «Баба-Яга»",
         "itemHref":"promo-article",
-        "img":"../images/wallet.png",
+        "img":"../babayaga/images/wallet.png",
         "role":""
       },
       {
@@ -42,7 +42,7 @@
         "listHref":"unicid02",
         "itemText":"Обольстительница",
         "itemHref":"promo-article",
-        "img":"../images/glases.png",
+        "img":"../babayaga/images/glases.png",
         "role":""
       }
 
@@ -54,7 +54,7 @@
         "listHref":"unicid03",
         "itemText":"Значок «ВДПО»",
         "itemHref":"promo-article",
-        "img":"../images/zn.png",
+        "img":"../babayaga/images/zn.png",
         "role":""
       }
     ]

@@ -1,6 +1,6 @@
 {
   "title":"КОНТАКТЫ",
-  "yagaUrl":"../images/baba-contacts.png",
+  "yagaUrl":"../babayaga/images/baba-contacts.png",
   "adresTitle":"Адрес",
   "adresText":"Екатеринбург, Невский проспект, д. 23, стр. 34",
   "phoneTitle":"Телефон",
@@ -8,5 +8,5 @@
   "mailTitle":"Эл. почта",
   "mailText":"info@baba-yaga.com",
   "copyText":"Разработка, поддержка и продвижение —",
-  "copyImg":"../images/logomoksi.png"
+  "copyImg":"../babayaga/images/logomoksi.png"
 }

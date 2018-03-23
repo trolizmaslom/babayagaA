@@ -9,11 +9,13 @@
         </button>
       </div>
       <div class="footer__list">
-        <ul>
-          <li
+        <div class="nav-wrap-before"><img src="{{navData?.decor}}" alt=""></div>
+        <div class="nav-wrap-after"><img src="{{navData?.decor}}" alt=""></div>
+        <div  class="nav-wrap">
+          <div class="nav-item"
             *ngFor="let item of navData?.pages"
-            routerLinkActive="active"><button type="button" [routerLink]="item.href">{{ item.name }}</button></li>
-        </ul>
+            routerLinkActive="active"><button type="button" [routerLink]="item.href">{{ item.name }}</button></div>
+        </div>
       </div>
       <div class="footer__soclang">
         <div class="footer__socials">

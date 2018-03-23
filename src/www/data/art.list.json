@@ -6,7 +6,7 @@
         {
           "type": "big",
           "title": "Баба-Яга заняла свое почетное место на улицах города",
-          "img": "../images/bbb01.jpg",
+          "img": "../babayaga/images/bbb01.jpg",
           "article": "baba-yaga-yaga-baba"
         }
       ],
@@ -14,13 +14,13 @@
         {
           "type": "normal",
           "title": "4-8 декабря 2018 ищите меня в Майами",
-          "img": "../images/for-news-1.jpg",
+          "img": "../babayaga/images/for-news-1.jpg",
           "article": "baba-yaga-yaga-baba"
         },
         {
           "type": "normal",
           "title": "4-8 декабря 2018 ищите меня в Майами",
-          "img": "../images/for-news-1.jpg",
+          "img": "../babayaga/images/for-news-1.jpg",
           "article": "baba-yaga-yaga-baba"
         }
       ]
@@ -30,7 +30,7 @@
         {
           "type": "big",
           "title": "Баба-Яга заняла свое почетное место на улицах города",
-          "img": "../images/bbb02.jpg",
+          "img": "../babayaga/images/bbb02.jpg",
           "article": "baba-yaga-yaga-baba"
         }
       ],
