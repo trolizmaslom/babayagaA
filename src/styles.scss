@@ -265,7 +265,7 @@ a:hover {text-decoration: none;}
   }
   &__vid-body {position: absolute; width: 100%; height: 100%; display: flex; justify-content: space-between; flex-direction: column; align-items: center; padding: 20px;}
 }
-.contacts{ height: 100vh; position: relative;
+.contacts{ height: calc(100vh - 50px); position: relative;
   &__title{font-size: 15px; margin-top: 30px; margin-bottom: 9px;}
   &__text{font-size: 20px;}
   &__baba{left: -68px;}
