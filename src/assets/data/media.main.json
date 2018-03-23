@@ -43,16 +43,19 @@
       {
         "img":"../images/oblozh.jpg",
         "title":"Новогодняя сумасшедшая",
+        "duration":"02:35",
         "src":["../assets/data/test.mp3"]
       },
       {
         "img":"../images/oblozh.jpg",
         "title":"Новогодняя сумасшедшая",
+        "duration":"02:35",
         "src":["../assets/data/test.mp3"]
       },
       {
         "img":"../images/oblozh.jpg",
         "title":"Новогодняя сумасшедшая",
+        "duration":"02:35",
         "src":["../assets/data/test.mp3"]
       }
     ]

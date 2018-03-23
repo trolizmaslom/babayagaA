@@ -43,17 +43,20 @@
       {
         "img":"../babayaga/images/oblozh.jpg",
         "title":"Новогодняя сумасшедшая",
-        "src":["../assets/data/test.mp3"]
+        "duration":"02:35",
+        "src":["../babayaga/assets/data/test.mp3"]
       },
       {
         "img":"../babayaga/images/oblozh.jpg",
         "title":"Новогодняя сумасшедшая",
-        "src":["../assets/data/test.mp3"]
+        "duration":"02:35",
+        "src":["../babayaga/assets/data/test.mp3"]
       },
       {
         "img":"../babayaga/images/oblozh.jpg",
         "title":"Новогодняя сумасшедшая",
-        "src":["../assets/data/test.mp3"]
+        "duration":"02:35",
+        "src":["../babayaga/assets/data/test.mp3"]
       }
     ]
   },
