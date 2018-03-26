@@ -3,7 +3,7 @@ import {PlatformLocation} from '@angular/common';
 
 @Injectable()
 export class LocationService {
-  constructor(public  platformLocation: PlatformLocation) {}
+  constructor() {}
   getLocation() {
     return '..';
   }

@@ -37,6 +37,7 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import { MouseWheelDirective } from './_directives/mouse-wheel.directive';
 import { PopupComponent } from './elems/popup/popup.component';
 import {CustomService} from "./_services/custom.service";
+import { ScrollNavDirective } from './_directives/scroll-nav.directive';
 
 
 @NgModule({
@@ -67,6 +68,7 @@ import {CustomService} from "./_services/custom.service";
     ArtListComponent,
     MouseWheelDirective,
     PopupComponent,
+    ScrollNavDirective,
   ],
   imports: [
     BrowserModule,
