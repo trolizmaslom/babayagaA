@@ -43,19 +43,16 @@ export class ScrollNavDirective {
     const torsoHeight = torso.getBoundingClientRect().height;
     const screenHeight = target.getBoundingClientRect().height;
     if (scrollPos >= 0 && dir < 0) {
-      console.log('im in top' + this.i);
       this.navigate(dir);
     } else if (Math.abs(scrollPos) + screenHeight + 5 >= torsoHeight && dir > 0) {
-      console.log('im in bottom' + this.i);
       this.navigate(dir);
     }
   }
   navigate(dir) {
     if (this.lastDirection !== dir ) { this.i = 0; }
     this.i++;
-    console.log(this.stater);
     if (this.i >= this.iterator) {
-        const hash = this.platformLocation.hash.trim().substring(2);
+        const hash = this.platformLocation.pathname.substring(1);
         let ind = this.navArray.indexOf(hash) + dir;
         if (ind < 0 ) {
           ind = this.navArray.length - 1;

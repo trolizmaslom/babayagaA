@@ -36,7 +36,7 @@ import { ArtListComponent } from './pages/art-list/art-list.component';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import { MouseWheelDirective } from './_directives/mouse-wheel.directive';
 import { PopupComponent } from './elems/popup/popup.component';
-import {CustomService} from "./_services/custom.service";
+import {CustomService} from './_services/custom.service';
 import { ScrollNavDirective } from './_directives/scroll-nav.directive';
 
 
@@ -71,7 +71,7 @@ import { ScrollNavDirective } from './_directives/scroll-nav.directive';
     ScrollNavDirective,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'yaga' }),
     SlickModule.forRoot(),
     HttpClientModule,
     BrowserAnimationsModule,
@@ -85,7 +85,7 @@ import { ScrollNavDirective } from './_directives/scroll-nav.directive';
     LocationService,
     PromoService,
     CustomService,
-    {provide: LocationStrategy, useClass: HashLocationStrategy}
+    // {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })

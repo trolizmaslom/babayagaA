@@ -8,7 +8,11 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:universal": "npm run build:client-and-server-bundles && npm run webpack:server",
+    "serve:universal": "node dist/server.js",
+    "build:client-and-server-bundles": "ng build --prod && ng build --prod --app 1 --output-hashing=false",
+    "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
   },
   "private": true,
   "dependencies": {
@@ -20,14 +24,22 @@
     "@angular/http": "^5.2.0",
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/platform-server": "^5.2.9",
     "@angular/router": "^5.2.0",
+    "@nguniversal/express-engine": "^5.0.0-beta.8",
+    "@nguniversal/module-map-ngfactory-loader": "^5.0.0-beta.8",
+    "angular2-universal": "^2.1.0-rc.1",
+    "body-parser": "^1.18.2",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
     "jquery": "^3.3.1",
     "ng2-smooth-scroll": "^1.0.1",
     "ngx-drag-scroll": "^1.7.5",
     "ngx-slick": "^0.1.3",
+    "preboot": "^6.0.0-beta.3",
     "rxjs": "^5.5.6",
     "slick-carousel": "^1.8.1",
+    "ts-loader": "^3.5.0",
     "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.19"
   },
@@ -47,7 +59,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
-    "ts-node": "~4.1.0",
+    "ts-node": "^4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
   }
